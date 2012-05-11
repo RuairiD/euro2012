@@ -47,7 +47,7 @@ public class Tournament extends JFrame implements ActionListener {
 		
 		super("UEFA Euro 2012");
 		setSize(800,600);
-		//setDefaultCloseOperation(EXIT_ON_CLOSE);
+		setDefaultCloseOperation(EXIT_ON_CLOSE);
 		
 		instance = this;
 		
